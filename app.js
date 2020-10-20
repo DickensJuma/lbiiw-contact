@@ -113,10 +113,10 @@ app.post('/', cors(corsOptions),(req, res) => {
     transporter.sendMail(mailOptions, function(error, info){
         if (error) {
           
-          res.redirect('https://winkeyinternational.co.ke/');
+          res.redirect('https://lbiiw.com/');
         } else {
          
-          res.redirect('https://winkeyinternational.co.ke/');
+          res.redirect('https://lbiiw.com/');
         }
       });
 });
